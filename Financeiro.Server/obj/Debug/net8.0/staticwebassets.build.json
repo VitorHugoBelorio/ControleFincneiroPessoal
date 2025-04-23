@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "eIQFyktJ/zCcuGfLvRHfMh//e3XoaZHly9Rv5Xlvgwg=",
+  "Source": "Financeiro.Server",
+  "BasePath": "_content/Financeiro.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\vitor\\OneDrive\\Área de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\financeiro.client.esproj",
+      "Version": 2,
+      "Source": "financeiro.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
