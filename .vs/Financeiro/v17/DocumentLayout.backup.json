@@ -3,40 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\components\\componentslogin\\button.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\components\\componentslogin\\button.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\routes\\minhasrotas.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\routes\\minhasrotas.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\pages\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.client\\src\\components\\componentslogin\\input.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F802D9EA-2B89-4A3D-B5BD-FF0327032334}|financeiro.client\\financeiro.client.esproj|solutionrelative:financeiro.client\\src\\components\\componentslogin\\input.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,113 +23,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Program.cs",
-              "RelativeToolTip": "Financeiro.Server\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:44:04.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Financeiro.Server\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:37:34.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Usuario.cs",
-              "RelativeToolTip": "Financeiro.Server\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:34:42.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "financeiro.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\main.jsx",
-              "RelativeToolTip": "financeiro.client\\src\\main.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T11:28:00.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Input.jsx",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\components\\componentsLogin\\Input.jsx",
-              "RelativeDocumentMoniker": "financeiro.client\\src\\components\\componentsLogin\\Input.jsx",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\components\\componentsLogin\\Input.jsx",
-              "RelativeToolTip": "financeiro.client\\src\\components\\componentsLogin\\Input.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T11:24:24.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Button.jsx",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\components\\componentsLogin\\Button.jsx",
-              "RelativeDocumentMoniker": "financeiro.client\\src\\components\\componentsLogin\\Button.jsx",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\components\\componentsLogin\\Button.jsx",
-              "RelativeToolTip": "financeiro.client\\src\\components\\componentsLogin\\Button.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T11:24:09.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\pages\\Login.jsx",
-              "RelativeDocumentMoniker": "financeiro.client\\src\\pages\\Login.jsx",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\pages\\Login.jsx",
-              "RelativeToolTip": "financeiro.client\\src\\pages\\Login.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T11:23:07.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "minhasRotas.jsx",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\routes\\minhasRotas.jsx",
-              "RelativeDocumentMoniker": "financeiro.client\\src\\routes\\minhasRotas.jsx",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\routes\\minhasRotas.jsx",
-              "RelativeToolTip": "financeiro.client\\src\\routes\\minhasRotas.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T11:17:53.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "financeiro.client\\src\\App.jsx",
               "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\App.jsx",
               "RelativeToolTip": "financeiro.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-04-24T10:58:36.207Z"
+              "WhenOpened": "2025-04-24T20:34:50.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\pages\\Home.jsx",
+              "RelativeDocumentMoniker": "financeiro.client\\src\\pages\\Home.jsx",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\financeiro.client\\src\\pages\\Home.jsx*",
+              "RelativeToolTip": "financeiro.client\\src\\pages\\Home.jsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-04-24T20:30:13.04Z",
+              "EditorCaption": ""
             }
           ]
         }
