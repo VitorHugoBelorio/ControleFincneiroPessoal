@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace Financeiro.Server.Models
+﻿namespace Financeiro.Server.Models
 {
     public class Transacao
     {
@@ -12,7 +10,7 @@ namespace Financeiro.Server.Models
 
         public bool Type { get; set; }
 
-        public long CategoryId { get; set; }
+        public long CategoriaId { get; set; }
         public Categoria MyProperty { get; set; } = null!;
 
         public string UserId { get; set; } = string.Empty;

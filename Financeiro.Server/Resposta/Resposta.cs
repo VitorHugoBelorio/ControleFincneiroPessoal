@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.Text.Json.Serialization;
 
-namespace Financeiro.Server.Response
+namespace Financeiro.Server.Resposta
 {
     public class Resposta<TData>
     {
