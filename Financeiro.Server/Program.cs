@@ -1,17 +1,19 @@
+using Financeiro.Server;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Habilita política de CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend", policy =>
     {
-        policy.WithOrigins("https://localhost:56109") // URL do seu frontend
+        policy.WithOrigins(Configuracao.FrontendUrl) 
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
