@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\handlers\\itransacaohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\handlers\\itransacaohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\handlers\\iusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\handlers\\iusuariohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\transacoes\\updatetransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\transacoes\\updatetransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\usuario\\updateusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\usuario\\updateusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\transacoes\\createtransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\transacoes\\createtransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\usuario\\deleteusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\usuario\\deleteusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\transacoes\\gettransacaobyperiodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\transacoes\\gettransacaobyperiodrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\transacoes\\gettransacaobyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\transacoes\\gettransacaobyidrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\transacoes\\deletetransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\transacoes\\deletetransacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\requests\\usuario\\createusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\requests\\usuario\\createusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateTransacaoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\UpdateTransacaoRequest.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Transacoes\\UpdateTransacaoRequest.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\UpdateTransacaoRequest.cs",
-              "RelativeToolTip": "Financeiro.Server\\Requests\\Transacoes\\UpdateTransacaoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IUsuarioHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Handlers\\IUsuarioHandler.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Handlers\\IUsuarioHandler.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Handlers\\IUsuarioHandler.cs",
+              "RelativeToolTip": "Financeiro.Server\\Handlers\\IUsuarioHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:26:49.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetTransacaoByPeriodRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByPeriodRequest.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByPeriodRequest.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByPeriodRequest.cs",
-              "RelativeToolTip": "Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByPeriodRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:24:14.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetTransacaoByIdRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByIdRequest.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByIdRequest.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByIdRequest.cs",
-              "RelativeToolTip": "Financeiro.Server\\Requests\\Transacoes\\GetTransacaoByIdRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:23:08.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteTransacaoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\DeleteTransacaoRequest.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Transacoes\\DeleteTransacaoRequest.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\DeleteTransacaoRequest.cs",
-              "RelativeToolTip": "Financeiro.Server\\Requests\\Transacoes\\DeleteTransacaoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:21:54.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Transacao.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Transacao.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Models\\Transacao.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Transacao.cs",
-              "RelativeToolTip": "Financeiro.Server\\Models\\Transacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:07:57.44Z",
+              "WhenOpened": "2025-04-28T19:55:54.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateTransacaoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\CreateTransacaoRequest.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Transacoes\\CreateTransacaoRequest.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Transacoes\\CreateTransacaoRequest.cs",
-              "RelativeToolTip": "Financeiro.Server\\Requests\\Transacoes\\CreateTransacaoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "DeleteUsuarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\DeleteUsuarioRequest.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Usuario\\DeleteUsuarioRequest.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\DeleteUsuarioRequest.cs",
+              "RelativeToolTip": "Financeiro.Server\\Requests\\Usuario\\DeleteUsuarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:07:12.486Z",
+              "WhenOpened": "2025-04-28T19:54:28.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITransacaoHandler.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Handlers\\ITransacaoHandler.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Handlers\\ITransacaoHandler.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Handlers\\ITransacaoHandler.cs",
-              "RelativeToolTip": "Financeiro.Server\\Handlers\\ITransacaoHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateUsuarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\UpdateUsuarioRequest.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Usuario\\UpdateUsuarioRequest.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\UpdateUsuarioRequest.cs",
+              "RelativeToolTip": "Financeiro.Server\\Requests\\Usuario\\UpdateUsuarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T18:05:16.159Z",
+              "WhenOpened": "2025-04-28T19:53:29.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUsuarioRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\CreateUsuarioRequest.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Requests\\Usuario\\CreateUsuarioRequest.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Requests\\Usuario\\CreateUsuarioRequest.cs",
+              "RelativeToolTip": "Financeiro.Server\\Requests\\Usuario\\CreateUsuarioRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T19:45:58.865Z",
               "EditorCaption": ""
             }
           ]
