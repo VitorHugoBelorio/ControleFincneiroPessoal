@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\database\\mappings\\usuariomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\database\\mappings\\usuariomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\database\\mappings\\transacaomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\database\\mappings\\transacaomapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,39 +17,39 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 236,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransacaoMapping.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\Mappings\\TransacaoMapping.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\DataBase\\Mappings\\TransacaoMapping.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\Mappings\\TransacaoMapping.cs",
-              "RelativeToolTip": "Financeiro.Server\\DataBase\\Mappings\\TransacaoMapping.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:25:44.744Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 202,
+          "DockedWidth": 293,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Transacao.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Transacao.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Models\\Transacao.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Transacao.cs",
-              "RelativeToolTip": "Financeiro.Server\\Models\\Transacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Title": "UsuarioMapping.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\Mappings\\UsuarioMapping.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\DataBase\\Mappings\\UsuarioMapping.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\Mappings\\UsuarioMapping.cs",
+              "RelativeToolTip": "Financeiro.Server\\DataBase\\Mappings\\UsuarioMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:26:47.25Z",
+              "WhenOpened": "2025-05-08T17:01:02.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 179,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Models\\Usuario.cs",
+              "RelativeToolTip": "Financeiro.Server\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T17:56:48.29Z",
               "EditorCaption": ""
             }
           ]
