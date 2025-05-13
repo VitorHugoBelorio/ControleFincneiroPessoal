@@ -1,4 +1,6 @@
 using Financeiro.Server;
+using Financeiro.Server.DataBase;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,12 @@ builder.Services.AddCors(options =>
               .AllowCredentials();
     });
 });
+
+// informando as credenciais para o banco de dados
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
