@@ -44,6 +44,8 @@ app.UseCors("PermitirFrontend"); // Ativa a política
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseAuthorization();
 
 app.MapControllers();

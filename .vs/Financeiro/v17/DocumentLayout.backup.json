@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|c:\\users\\vitor\\onedrive\\\u00E1rea de trabalho\\projetos pessoais\\controlefincneiropessoal\\financeiro.server\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14FA790A-5D83-4CD7-848D-8ABC370067A9}|Financeiro.Server\\Financeiro.Server.csproj|solutionrelative:financeiro.server\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 293,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "Financeiro.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\appsettings.json",
-              "RelativeToolTip": "Financeiro.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T20:15:47.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\DataBase\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\DataBase\\AppDbContext.cs",
-              "RelativeToolTip": "Financeiro.Server\\DataBase\\AppDbContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:33:45.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Financeiro.Server\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Financeiro.Server\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:04:05.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Program.cs",
               "RelativeDocumentMoniker": "Financeiro.Server\\Program.cs",
               "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Program.cs",
               "RelativeToolTip": "Financeiro.Server\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T19:32:03.914Z",
+              "WhenOpened": "2025-05-13T14:56:52.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Financeiro.Server\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwF0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:06:20.293Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\TransacaoController.cs",
+              "RelativeDocumentMoniker": "Financeiro.Server\\Controllers\\TransacaoController.cs",
+              "ToolTip": "C:\\Users\\vitor\\OneDrive\\\u00C1rea de Trabalho\\projetos pessoais\\ControleFincneiroPessoal\\Financeiro.Server\\Controllers\\TransacaoController.cs",
+              "RelativeToolTip": "Financeiro.Server\\Controllers\\TransacaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:06:18.349Z"
             }
           ]
         }
