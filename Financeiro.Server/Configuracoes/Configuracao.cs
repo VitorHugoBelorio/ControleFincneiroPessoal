@@ -1,4 +1,4 @@
-﻿namespace Financeiro.Server
+﻿namespace Financeiro.Server.Configuracoes
 {
     public class Configuracao
     {

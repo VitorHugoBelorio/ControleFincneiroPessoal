@@ -1,7 +1,13 @@
-﻿using Financeiro.Server.DataBase;
+﻿using Financeiro.Server.Configuracoes;
+using Financeiro.Server.DataBase;
 using Financeiro.Server.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Financeiro.Server.Controllers
 {
@@ -10,10 +16,12 @@ namespace Financeiro.Server.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly JwtSettings _jwtSettings;
 
-        public UsuarioController(AppDbContext context)
+        public UsuarioController(AppDbContext context, IOptions<JwtSettings> jwtSettings)
         {
             _context = context;
+            _jwtSettings = jwtSettings.Value;
         }
 
         [HttpPost("login")]
@@ -21,13 +29,11 @@ namespace Financeiro.Server.Controllers
         {
             try
             {
-                // Validação básica
                 if (string.IsNullOrWhiteSpace(usuario.Email) || string.IsNullOrWhiteSpace(usuario.Senha))
                 {
                     return BadRequest(new { mensagem = "Email e senha são obrigatórios." });
                 }
 
-                // Consulta ao banco
                 var usuarioExistente = await _context.Usuarios
                     .FirstOrDefaultAsync(u => u.Email == usuario.Email && u.Senha == usuario.Senha);
 
@@ -36,14 +42,30 @@ namespace Financeiro.Server.Controllers
                     return Unauthorized(new { mensagem = "Credenciais inválidas." });
                 }
 
-                // Token falso (pode ser substituído por JWT futuramente)
-                //var fakeToken = "tokenFake123";
+                var claims = new[]
+                {
+                    new Claim("id", usuarioExistente.Id.ToString()),
+                    new Claim(ClaimTypes.Name, usuarioExistente.Nome),
+                    new Claim(ClaimTypes.Email, usuarioExistente.Email)
+                };
+
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
+                var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+                var token = new JwtSecurityToken(
+                    issuer: _jwtSettings.Issuer,
+                    audience: _jwtSettings.Audience,
+                    claims: claims,
+                    expires: DateTime.UtcNow.AddHours(_jwtSettings.ExpiracaoHoras),
+                    signingCredentials: creds
+                );
+
+                var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
                 return Ok(new
                 {
                     mensagem = "Login realizado com sucesso.",
-                    usuario = new { usuarioExistente.Email },
-                    //token = fakeToken
+                    token = tokenString
                 });
             }
             catch (Exception ex)
@@ -125,6 +147,34 @@ namespace Financeiro.Server.Controllers
             }
         }
 
+        [HttpDelete]
+        public async Task<IActionResult> ExcluirUsuario([FromBody] Usuario usuario)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(usuario.Email))
+                {
+                    return BadRequest(new { mensagem = "Email é obrigatório." });
+                }
+                var usuarioExistente = await _context.Usuarios
+                    .FirstOrDefaultAsync(u => u.Email == usuario.Email && u.Senha == usuario.Senha);
+                if (usuarioExistente == null)
+                {
+                    return NotFound(new { mensagem = "Usuário não encontrado." });
+                }
+                _context.Usuarios.Remove(usuarioExistente);
+                await _context.SaveChangesAsync();
+                return Ok(new { mensagem = "Usuário excluído com sucesso." });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    mensagem = "Erro ao excluir usuário.",
+                    erro = ex.Message
+                });
+            }
+        }
     }
 }
 

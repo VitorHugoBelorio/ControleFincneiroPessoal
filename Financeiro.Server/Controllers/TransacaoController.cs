@@ -1,6 +1,11 @@
-﻿namespace Financeiro.Server.Controllers
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace Financeiro.Server.Controllers
 {
-    public class TransacaoController
+    [ApiController]
+    [Route("v1/transacao")]
+    public class TransacaoController : ControllerBase
     {
+
     }
 }

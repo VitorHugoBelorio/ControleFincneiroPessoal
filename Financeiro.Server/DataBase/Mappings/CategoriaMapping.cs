@@ -23,9 +23,7 @@ namespace Financeiro.Server.DataBase.Mappings
                 .HasMaxLength(255);
 
             builder.Property(x => x.UserId)
-                .IsRequired(true)
-                .HasColumnType("VARCHAR")
-                .HasMaxLength(160);
+                .IsRequired(true);
         }
 
     }

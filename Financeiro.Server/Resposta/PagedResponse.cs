@@ -1,4 +1,5 @@
-﻿using Financeiro.Server.Resposta;
+﻿using Financeiro.Server.Configuracoes;
+using Financeiro.Server.Resposta;
 using Microsoft.Extensions.Configuration;
 using System.Text.Json.Serialization;
 

@@ -1,4 +1,6 @@
-﻿namespace Financeiro.Server.Requests
+﻿using Financeiro.Server.Configuracoes;
+
+namespace Financeiro.Server.Requests
 {
     public class PagedRequest : Request
     {

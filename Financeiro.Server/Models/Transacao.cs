@@ -13,6 +13,6 @@
         public long CategoriaId { get; set; }
         public Categoria Categoria { get; set; } = null!;
 
-        public string UserId { get; set; } = string.Empty;
+        public long UserId { get; set; }
     }
 }
