@@ -90,17 +90,41 @@ namespace Financeiro.Server.Controllers
 
         }
 
-        [HttpGet("perfil")]
-        public async Task<IActionResult> GetUsuario()
+        [HttpPut("esqueci-senha")]
+        public async Task<IActionResult> AtualizarSenha([FromBody] Usuario usuario)
         {
             try
             {
-                // a implementar
+                if (string.IsNullOrWhiteSpace(usuario.Email) || string.IsNullOrWhiteSpace(usuario.Senha))
+                {
+                    return BadRequest(new { mensagem = "Email e nova senha são obrigatórios." });
+                }
+
+                var usuarioExistente = await _context.Usuarios
+                    .FirstOrDefaultAsync(u => u.Email == usuario.Email);
+
+                if (usuarioExistente == null)
+                {
+                    return NotFound(new { mensagem = "Usuário não encontrado." });
+                }
+
+                usuarioExistente.Senha = usuario.Senha;
+
+                _context.Usuarios.Update(usuarioExistente);
+                await _context.SaveChangesAsync();
+
+                return Ok(new { mensagem = "Senha atualizada com sucesso." });
             }
             catch (Exception ex)
             {
-
+                return StatusCode(500, new
+                {
+                    mensagem = "Erro ao atualizar a senha.",
+                    erro = ex.Message
+                });
             }
         }
+
     }
 }
+
