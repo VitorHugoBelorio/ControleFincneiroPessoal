@@ -1,70 +1,41 @@
-import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Input from "../components/componentsLogin/Input";
-import Button from "../components/componentsLogin/Button";
+import axios from "axios";
+import { useState } from "react";
 
-const Login = () => {
+export default function Login() {
+    const navigate = useNavigate();
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
-    const navigate = useNavigate();
 
     const handleLogin = async (e) => {
         e.preventDefault();
-
         try {
-            const response = await fetch("https://localhost:7277/v1/login", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ email, senha })
+            const res = await axios.post("http://localhost:5000/v1/usuario/login", {
+                email,
+                senha,
             });
 
-            if (response.ok) {
-                const data = await response.json();
-                console.log("Login realizado:", data);
-
-                // Salvar token se quiser usar depois (ex: localStorage)
-                // localStorage.setItem("token", data.token);
-
-                // Redireciona para o painel
-                navigate("/home");
-            } else {
-                const erro = await response.json();
-                alert(erro.mensagem || "Erro no login");
-            }
-        } catch (error) {
-            console.error("Erro ao conectar com o servidor:", error);
-            alert("Não foi possível conectar com o servidor.");
+            localStorage.setItem("token", res.data.token);
+            navigate("/categorias"); // redireciona para a tela de categorias
+        } catch (err) {
+            alert(err.response?.data?.mensagem || "Erro ao fazer login.");
         }
     };
 
     return (
-        <div className="d-flex align-items-center justify-content-center vh-100 bg-light">
-            <form
-                onSubmit={handleLogin}
-                className="bg-white p-5 rounded shadow-sm w-100"
-                style={{ maxWidth: "400px" }}
-            >
-                <h2 className="text-center mb-4">Login</h2>
-                <Input
-                    label="E-mail"
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="seuemail@exemplo.com"
-                />
-                <Input
-                    label="Senha"
-                    type="password"
-                    value={senha}
-                    onChange={(e) => setSenha(e.target.value)}
-                    placeholder="Digite sua senha"
-                />
-                <Button type="submit">Entrar</Button>
+        <div className="container mt-5">
+            <h2>Login</h2>
+            <form onSubmit={handleLogin}>
+                <div className="mb-3">
+                    <label className="form-label">Email</label>
+                    <input type="email" className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                </div>
+                <div className="mb-3">
+                    <label className="form-label">Senha</label>
+                    <input type="password" className="form-control" value={senha} onChange={(e) => setSenha(e.target.value)} required />
+                </div>
+                <button type="submit" className="btn btn-primary">Entrar</button>
             </form>
         </div>
     );
-};
-
-export default Login;
+}
