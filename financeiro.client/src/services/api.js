@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/v1', // ajuste a porta se necessário
+    baseURL: 'https://localhost:7277/v1', // ajuste a porta se necessário
 });
 
 api.interceptors.request.use((config) => {

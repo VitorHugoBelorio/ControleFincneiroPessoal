@@ -7,6 +7,6 @@
         public const int DefaultPageSize = 25;
 
         // public static string BackendUrl { get; set; } = "";
-        public static string FrontendUrl { get; set; } = "https://localhost:56109";
+        //public static string FrontendUrl { get; set; } = "https://localhost:56109";
     }
 }
