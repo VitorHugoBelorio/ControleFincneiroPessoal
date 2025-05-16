@@ -55,6 +55,36 @@ namespace Financeiro.Server.Controllers
         }
 
         [Authorize]
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetByIdCategorias(long id) 
+        {
+            try
+            {
+                var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
+                if (userIdClaim == null)
+                {
+                    return Unauthorized(new { mensagem = "Usuário não identificado." });
+                }
+                long usuarioId = long.Parse(userIdClaim.Value);
+                var categoria = await _context.Categorias
+                    .FirstOrDefaultAsync(c => c.Id == id && c.UserId == usuarioId);
+                if (categoria == null)
+                {
+                    return NotFound(new { mensagem = "Categoria não encontrada." });
+                }
+                return Ok(categoria);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    mensagem = "Erro ao buscar categoria.",
+                    erro = ex.Message
+                });
+            }
+        }
+
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateCategoria([FromBody] Categoria categoria)
         {
