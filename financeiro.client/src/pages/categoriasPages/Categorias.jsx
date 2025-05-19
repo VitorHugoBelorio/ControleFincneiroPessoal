@@ -55,6 +55,12 @@ export default function Categorias() {
                                 >
                                     Excluir
                                 </button>
+                                <button
+                                    className="btn btn-info btn-sm me-2"
+                                    onClick={() => navigate(`/categorias/visualizar/${cat.id}`)}
+                                >
+                                    Visualizar
+                                </button>
                             </td>
                         </tr>
                     ))}

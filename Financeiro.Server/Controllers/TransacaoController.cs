@@ -266,5 +266,42 @@ namespace Financeiro.Server.Controllers
                 });
             }
         }
+
+        [Authorize]
+        [HttpGet("por-categoria/{categoriaId}")]
+        public async Task<IActionResult> GetByCategoria(long categoriaId)
+        {
+            try
+            {
+                var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
+                if (userIdClaim == null)
+                {
+                    return Unauthorized(new { mensagem = "Usuário não identificado." });
+                }
+
+                long usuarioId = long.Parse(userIdClaim.Value);
+
+                var transacoes = await _context.Transacoes
+                    .Include(t => t.Categoria)
+                    .Where(t => t.UserId == usuarioId && t.CategoriaId == categoriaId)
+                    .ToListAsync();
+
+                if (!transacoes.Any())
+                {
+                    return NotFound(new { mensagem = "Nenhuma transação encontrada para esta categoria." });
+                }
+
+                return Ok(transacoes);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new
+                {
+                    mensagem = "Erro ao buscar transações por categoria.",
+                    erro = ex.Message
+                });
+            }
+        }
+
     }
 }

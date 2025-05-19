@@ -4,6 +4,7 @@ import Categorias from "./pages/categoriasPages/Categorias";
 import NovaCategoria from "./pages/categoriasPages/NovaCategoria";
 import EditarCategoria from "./pages/categoriasPages/EditarCategoria";
 import ExcluirCategoria from "./pages/categoriasPages/ExcluirCategoria";
+import VisualizarCategoria from "./pages/categoriasPages/VisualizarCategoria";
 
 const PrivateRoute = ({ children }) => {
     const token = localStorage.getItem("token");
@@ -44,6 +45,14 @@ function App() {
                 element={
                     <PrivateRoute>
                         <ExcluirCategoria />
+                    </PrivateRoute>
+                }
+            />
+            <Route
+                path="/categorias/visualizar/:id"
+                element={
+                    <PrivateRoute>
+                        <VisualizarCategoria />
                     </PrivateRoute>
                 }
             />

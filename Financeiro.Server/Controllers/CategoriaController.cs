@@ -56,7 +56,7 @@ namespace Financeiro.Server.Controllers
 
         [Authorize]
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetByIdCategorias(long id) 
+        public async Task<IActionResult> GetByIdCategoria(long id) 
         {
             try
             {
