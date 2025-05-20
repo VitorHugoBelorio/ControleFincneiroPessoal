@@ -3,8 +3,9 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 const VisualizarCategoria = () => {
-    const { titulo } = useParams(); // capturando o título da categoria da URL
+    const { id } = useParams(); // agora corretamente pegando o ID da categoria
     const navigate = useNavigate();
+    const [categoria, setCategoria] = useState(null);
     const [transacoes, setTransacoes] = useState([]);
     const [carregando, setCarregando] = useState(true);
     const [erro, setErro] = useState(null);
@@ -13,7 +14,7 @@ const VisualizarCategoria = () => {
     const headers = token ? { Authorization: `Bearer ${token}` } : {};
 
     useEffect(() => {
-        const buscarTransacoes = async () => {
+        const buscarDados = async () => {
             if (!token) {
                 setErro("Usuário não autenticado.");
                 setCarregando(false);
@@ -21,19 +22,21 @@ const VisualizarCategoria = () => {
             }
 
             try {
-                const response = await axios.get(`https://localhost:7277/v1/transacao/categoria/${titulo}`, {
-                    headers
-                });
+                // Buscar categoria pelo ID
+                const categoriaResp = await axios.get(`https://localhost:7277/v1/categoria/${id}`, { headers });
+                setCategoria(categoriaResp.data);
 
-                setTransacoes(response.data);
+                // Buscar transações associadas à categoria
+                const transacoesResp = await axios.get(`https://localhost:7277/v1/transacao/categoria/${id}`, { headers });
+                setTransacoes(transacoesResp.data);
             } catch (err) {
                 if (err.response) {
                     if (err.response.status === 404) {
-                        setErro("Nenhuma transação encontrada para esta categoria.");
+                        setErro("Categoria ou transações não encontradas.");
                     } else if (err.response.status === 401) {
                         setErro("Usuário não autorizado. Faça login novamente.");
                     } else {
-                        setErro("Erro ao carregar transações.");
+                        setErro("Erro ao carregar dados.");
                     }
                 } else {
                     setErro("Erro de conexão. Verifique sua internet.");
@@ -43,24 +46,24 @@ const VisualizarCategoria = () => {
             }
         };
 
-        buscarTransacoes();
-    }, [titulo]);
+        buscarDados();
+    }, [id]);
 
     const handleCriarTransacao = () => {
-        navigate(`/transacao/criar/${titulo}`);
+        navigate(`/transacoes/nova?categoriaId=${id}`);
     };
 
-    const handleEditar = (id) => {
-        navigate(`/transacao/editar/${titulo}/${id}`);
+    const handleEditar = (transacaoId) => {
+        navigate(`/transacoes/editar/${transacaoId}`);
     };
 
-    const handleExcluir = async (id) => {
+    const handleExcluir = async (transacaoId) => {
         const confirmacao = window.confirm("Tem certeza que deseja excluir esta transação?");
         if (!confirmacao) return;
 
         try {
-            await axios.delete(`https://localhost:7277/v1/transacao/${id}`, { headers });
-            setTransacoes(transacoes.filter(t => t.id !== id));
+            await axios.delete(`https://localhost:7277/v1/transacao/${transacaoId}`, { headers });
+            setTransacoes(transacoes.filter(t => t.id !== transacaoId));
         } catch (error) {
             alert("Erro ao excluir transação.");
             console.error(error);
@@ -70,14 +73,16 @@ const VisualizarCategoria = () => {
     return (
         <div className="container mt-5">
             <div className="d-flex justify-content-between align-items-center mb-4">
-                <h2 className="text-primary">Transações: {titulo}</h2>
+                <h2 className="text-primary">
+                    Transações: {categoria ? categoria.titulo : "Carregando..."}
+                </h2>
                 <button className="btn btn-success" onClick={handleCriarTransacao}>
                     + Nova Transação
                 </button>
             </div>
 
             {carregando ? (
-                <div className="alert alert-info">Carregando transações...</div>
+                <div className="alert alert-info">Carregando dados...</div>
             ) : erro ? (
                 <div className="alert alert-danger">{erro}</div>
             ) : (

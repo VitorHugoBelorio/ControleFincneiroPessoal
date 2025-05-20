@@ -118,73 +118,32 @@ namespace Financeiro.Server.Controllers
         }
 
         [Authorize]
-        [HttpPost("categoria/{titulo}")]
-        public async Task<IActionResult> CreateTransacao(string titulo, [FromBody] Transacao transacao) 
+        [HttpPost("categoria/id/{categoriaId}")]
+        public async Task<IActionResult> CreateTransacaoPorId(long categoriaId, [FromBody] Transacao transacao)
         {
-            try
-            {
-                // separa a identificação do usuário
-                var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
-                if (userIdClaim == null)
-                {
-                    return Unauthorized(new { mensagem = "Usuário não identificado." });
-                }
+            var categoria = await _context.Categorias.FirstOrDefaultAsync(c => c.Id == categoriaId);
 
-                long usuarioId = long.Parse(userIdClaim.Value);
+            if (categoria == null)
+                return NotFound(new { message = "Categoria não encontrada." });
 
-                transacao.UserId = usuarioId;
+            transacao.CategoriaId = categoriaId;
+            transacao.CriadoEm = DateTime.Now;
 
-                // separa a identificação da categoria
-                var categoria = await _context.Categorias
-                    .FirstOrDefaultAsync(c => c.UserId == usuarioId && c.Titulo.ToLower() == titulo.ToLower());
-                if (categoria == null)
-                {
-                    return NotFound(new { mensagem = "Categoria não encontrada." });
-                }
+            // Pega o ID do usuário autenticado do JWT
+            var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "id");
+            if (userIdClaim == null)
+                return Unauthorized();
 
-                // Validações da transação
-                if (string.IsNullOrWhiteSpace(transacao.Titulo))
-                {
-                    return BadRequest(new { mensagem = "O título da transação é obrigatório." });
-                }
+            transacao.UserId = long.Parse(userIdClaim.Value);
 
-                if (transacao.Quantia <= 0)
-                {
-                    return BadRequest(new { mensagem = "A quantia da transação deve ser maior que zero." });
-                }
+            _context.Transacoes.Add(transacao);
+            await _context.SaveChangesAsync();
 
-                if (transacao.PagoOuRecebidoEm.HasValue && transacao.PagoOuRecebidoEm.Value > DateTime.Now)
-                {
-                    return BadRequest(new { mensagem = "A data de pagamento ou recebimento não pode estar no futuro." });
-                }
-
-                // Type já é booleano, mas incluímos para clareza e consistência
-                if (transacao.Type != true && transacao.Type != false)
-                {
-                    return BadRequest(new { mensagem = "O tipo da transação é inválido." });
-                }
-
-                transacao.Categoria = categoria;
-                transacao.CategoriaId = categoria.Id;
-
-                _context.Transacoes.Add(transacao);
-                await _context.SaveChangesAsync();
-
-                return Ok(new
-                {
-                    mensagem = "Transação criada com sucesso.",
-                    transacao
-                });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new
-                {
-                    mensagem = "Erro ao criar transação.",
-                    erro = ex.Message
-                });
-            }
+            return CreatedAtAction(nameof(CreateTransacaoPorId), new { id = transacao.Id }, transacao);
         }
+    
+
+
 
         [Authorize]
         [HttpPut("categoria/{titulo}/{id}")]
